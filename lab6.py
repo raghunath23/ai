@@ -70,3 +70,8 @@ goal_position = (4, 4)
 
 path = astar(maze, start_position, goal_position)
 print("A* Path:", path)
+
+"""
+Sample output
+A* Path: [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (1, 4), (2, 4), (3, 4), (4, 4)]
+"""
