@@ -41,3 +41,11 @@ if solveNQUtil(board, 0) == False:
     print("Solution does not exist")
 else:
     printSolution(board)
+
+"""
+Sample output
+0 1 0 0
+0 0 0 1
+1 0 0 0
+0 0 1 0 
+"""
