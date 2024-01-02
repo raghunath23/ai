@@ -39,3 +39,16 @@ for _ in range(n):
 print("Inheritance before head's death:", ob.inheritance())
 ob.death(head_name)
 print("Inheritance after head's death:", ob.inheritance())
+
+"""
+Sample output
+Enter the Head: Grandpa
+Enter no. of children: 4
+Enter parent-child: Grandpa Dad
+Enter parent-child: Dad You
+Enter parent-child: Grandpa Uncle
+Enter parent-child: Uncle Cousin
+
+Inheritance before head's death: ['Grandpa', 'Dad', 'You', 'Uncle', 'Cousin']
+Inheritance after head's death: ['Dad', 'You', 'Uncle', 'Cousin']
+"""
