@@ -1,0 +1,18 @@
+likes(ram, mango).
+is_a(seema, girl).
+likes(bill, cindy).
+is_red(rose).
+owns(john, gold).
+
+///////
+Queries[Execute one query at a time]
+
+?- likes(ram, WhatLikesRam).
+
+?- is_a(seema, girl).
+
+?- likes(WhoLikesCindy, cindy).
+
+?- is_red(rose).
+
+?- owns(john, gold).
