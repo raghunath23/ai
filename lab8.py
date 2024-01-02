@@ -37,3 +37,12 @@ if __name__ == "__main__":
             print(f"{vertex}: {color}")
     else:
         print("No solution found.")
+
+"""
+Sample output
+Solution found:
+A: Red
+B: Green
+C: Blue
+D: Red
+"""
