@@ -34,3 +34,17 @@ def gcd(a, b):
     return a
 
 water_jug_problem(max(jug1,jug2),min(jug1,jug2), target)
+""" Sample output
+Enter the capacity of the first jug: 4
+Enter the capacity of the second jug: 3
+Enter the target volume: 2
+0 0
+4 0
+1 3
+1 0
+0 1
+4 1
+2 3
+2 0
+0 2
+Minimum number of steps to reach the target: 9 """
