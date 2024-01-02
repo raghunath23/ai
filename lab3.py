@@ -44,3 +44,8 @@ addedge(9, 13, 2)
 source = 0
 target = 9
 best_first_search(source, target, v)
+
+"""
+Sample output
+0 1 2 3 8 9
+"""
