@@ -12,3 +12,8 @@ prime_numbers_up_to_limit = list(primerange(1, limit + 1))
 a = var()
 result = set(run(0, a, (membero, a, prime_numbers_up_to_limit), (check_prime, a)))
 print(f"Prime numbers up to {limit}: {result}")
+
+"""
+Enter a limit to find primes up to: 20
+Prime numbers up to 20: {2, 3, 5, 7, 11, 13, 17, 19}
+"""
